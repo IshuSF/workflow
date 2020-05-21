@@ -1,0 +1,137 @@
+#stencil {
+  background:#ebebe0;
+  float:left;
+}
+
+#paper {
+  background: #ebebe0;
+  float:right;
+}
+
+
+
+.html-element {
+  position: absolute;
+  background: white;
+  /* Make sure events are propagated to the JointJS element so, e.g. dragging works.*/
+  pointer-events: none;
+  -webkit-user-select: none;
+  border: 1px solid black;
+  z-index: 2;
+}
+.html-element button {
+  /* Enable interacting with inputs only. */
+  pointer-events: auto;
+}
+
+.html-element button.delete {
+  color: white;
+  border: none;
+  background-color: #C0392B;
+  border-radius: 20px;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  text-align: middle;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+.html-element button.delete:hover {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+}
+
+.html-element label {
+  color: #333;
+  text-shadow: 1px 0 0 lightgray;
+  font-weight: bold;
+}
+.html-element span {
+  position: absolute;
+  top: 2px;
+  right: 9px;
+  color: white;
+  font-size: 10px;
+}
+
+.small_img {
+  margin:10px;
+  float:left;
+}
+
+.small_label{
+  float:left;
+  margin-top:10px;
+  color:black;
+}
+
+.big_img {
+  margin-left: 30px;
+  margin-top: 14px;
+  margin-bottom: 24px;
+}
+
+.big_label{
+  color:white;
+}
+
+.big_img_div {
+  height:80%;
+}
+
+.big_label_div {
+  height:20%;
+  background:blue;
+  text-align: center;
+}
+
+#form{
+  display:none;
+  border: 1px solid grey;
+  width: 290px;
+  height:300px;
+  float:left;
+  margin-top:10px;
+  margin-left:20px;
+  background:white;
+  height:560px
+}
+
+.form-close{
+  float:right;
+  margin-top:10px;
+  margin-right:10px;
+  height:20px;
+  width:20px;
+}
+
+.form-label{
+  color:black;
+  float:left;
+  margin-top:10px;
+  margin-left:10px;
+}
+
+.side-panel{
+  background:#ebebe0;
+  float:left;
+  width: 330px;
+  height:600px;
+}
+
+.input-text{
+  height:30px;
+  width:270px;
+  margin:10px;
+}
+
+.input-label{
+  margin-left:15px;
+  font-size:13;
+}

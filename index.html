@@ -1,0 +1,35 @@
+<html>
+<head>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="lib/css/joint.css">
+</head>
+
+<body>
+  <span class="span">
+    <div class="side-panel"> 
+      <div id="form">
+        <div>
+          <a class="form-label">Details</a>
+          <span onclick=closeForm()><img src="img/cross.jpeg" class="form-close" /></span>
+          <br> <br>
+          <hr>
+          <br> <br>
+          <span class="input-label">Memory</span>
+          <input type="text" class="input-text"></input>
+          <br> <br>
+          <span class="input-label">Threshold</span>
+          <input type="text" class="input-text"></input>
+        </div>
+      </div>
+      <div id="stencil"></div>
+    </div>
+    <div id="paper"></div>
+  </span> 
+
+  <script src="lib/js/jquery.js"></script>
+  <script src="lib/js/lodash.js"></script>
+  <script src="lib/js/backbone.js"></script>
+  <script src="lib/js/joint.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
