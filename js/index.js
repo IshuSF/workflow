@@ -64,43 +64,49 @@ joint.shapes.html.ElementView = joint.dia.ElementView.extend({
     }
 });
 
+var role = new joint.shapes.html.Element({
+  position: { x: 20, y: 10 },
+  size: { width: 290, height: 40 },
+  label: 'Role',
+  imgSrc: 'img/small-clock.png'
+});
 var image = new joint.shapes.html.Element({
-    position: { x: 20, y: 10 },
+    position: { x: 20, y: 60 },
     size: { width: 290, height: 40 },
     label: 'Image',
     imgSrc: 'img/images.png'
 });
 var compute = new joint.shapes.html.Element({
-    position: { x: 20, y: 60 },
+    position: { x: 20, y: 110 },
     size: { width: 290, height: 40 },
     label: 'Compute',
     imgSrc: 'img/small-business.png',
 });
 var storage = new joint.shapes.html.Element({
-  position: { x: 20, y: 110 },
+  position: { x: 20, y: 160 },
   size: { width: 290, height: 40 },
   label: 'Storage',
   imgSrc: 'img/small-lens.png',
 });
 var services = new joint.shapes.html.Element({
-  position: { x: 20, y: 160 },
+  position: { x: 20, y: 210 },
   size: { width: 290, height: 40 },
   label: 'Services',
   imgSrc: 'img/open-laptop-computer.png',
 });
 var environment = new joint.shapes.html.Element({
-  position: { x: 20, y: 210 },
+  position: { x: 20, y: 260 },
   size: { width: 290, height: 40 },
   label: 'Environment',
   imgSrc: 'img/small-house-with-chimney.png',
 });
 var servicePorts = new joint.shapes.html.Element({
-  position: { x: 20, y: 260 },
+  position: { x: 20, y: 310 },
   size: { width: 290, height: 40 },
   label: 'Service Ports',
   imgSrc: 'img/small-clock.png',
 });
-stencilGraph.addCells([image, compute, storage, services, environment, servicePorts]);
+stencilGraph.addCells([role, image, compute, storage, services, environment, servicePorts]);
 
 // link on drop elements
 paper.on({
