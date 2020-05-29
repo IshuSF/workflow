@@ -1,0 +1,56 @@
+#stencil {
+  background:#ebebe0;
+}
+
+#paper {
+  background: #ebebe0;
+}
+
+#form{
+  display:none;
+  border: 1px solid grey;
+  width: 90%;
+  height:588px;
+  float:left;
+  margin-top:10px;
+  margin-left:15px;
+  background:white;
+}
+
+.form-close{
+  float:right;
+  margin-top:10px;
+  margin-right:10px;
+  height:20px;
+  width:20px;
+}
+
+.form-label{
+  color:black;
+  float:left;
+  margin-top:10px;
+  margin-left:10px;
+}
+
+.side-panel{
+  background:#ebebe0;
+  display:inline-block;
+  width: 300px;
+}
+
+.paper-container{
+  display:inline-block;
+  width: 73%;
+  margin-left:10px;
+}
+
+.input-text{
+  height:30px;
+  width:90%;
+  margin:10px;
+}
+
+.input-label{
+  margin-left:15px;
+  font-size:13;
+}
